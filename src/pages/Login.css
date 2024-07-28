@@ -1,0 +1,15 @@
+.login-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.spinning-logo {
+    width: 100px;
+    height: 100px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
